@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+ background-image: url("/static/img/Dragon_Sky.webp");
+  /* background-size: 100%; */
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-repeat:no-repeat;
+}
+
+.center{
+  text-align : center;
+}
+
+.heb{
+  direction:rtl;
+}
+
+.container{
+  padding: 0;
+}
+
+#koteret{
+  /* font-family: 'Rubik Beastly', system-ui; */
+font-family: 'Rubik Dirt', system-ui;
+  font-size:300%;
+  color: red;
+}
+
+/* #mainScreen{
+    min-height: 50vh;
+} */
+
+.opacBgnd{
+  background-color: rgba(230, 230, 230, 0.5);
+}
+
+footer{
+  width : 100%;
+  font-size: 150%;
+  font-weight: 800;
+  color:red;
+  position: absolute;
+  bottom: 0 ;
+}
